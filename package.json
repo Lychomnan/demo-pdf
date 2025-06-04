@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.5.1",
+    "@nuxt/eslint": "^1.3.0",
+    "@nuxt/ui": "^3.1.1",
+    "@tailwindcss/vite": "^4.1.5",
+    "animate.css": "^4.1.1",
+    "eslint": "^9.26.0",
+    "nuxt": "^3.17.1",
+    "nuxt-app": "file:",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^5.3.31",
+    "tailwindcss": "^4.1.5",
+    "typescript": "^5.8.3",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0"
+  }
+}
